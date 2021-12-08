@@ -1,0 +1,69 @@
+/* Stylesheet for main page*/
+
+body{
+  font-family:"Comfortaa", Helvetica, serif;
+  
+}
+
+/*Header and Nav*/
+header{
+  background: #F3DAD8;
+  padding: 20px;
+  
+}
+
+nav{
+  text-align:right;
+  padding-bottom: 10px;
+  font-size:16px;
+}
+
+nav a{
+  padding-left:10px;
+  padding-right:10px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#7A6174;
+}
+
+hr{
+  border:1px dashed #7A6174;
+}
+
+.message{
+  background:#FFFFFF;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding:20px;
+  padding-bottom:30px;
+  border-radius:10px;
+  text-align:center;
+}
+
+.message h1{
+  color:#7A6174;
+}
+
+.message p{
+  color:#7A6174;
+}
+
+.message button{
+  background-color: #E4EDCF;
+  border:none;
+  color:#7A6174;
+  font-weight:lighter;
+  font-size: 16px;
+  padding:10px;
+  border-radius: 5px;
+}
+
+main{
+  padding:20px;
+}
+
+footer{
+  padding:20px;
+  font-size:12px;
+  text-align:center;
+}
