@@ -62,7 +62,37 @@ main{
   padding:20px;
 }
 
+.about-me h1{
+  color:#7A6174;
+  text-align:center;
+}
+
+.descript-everything{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  max-width:90%;
+}
+
+.headshot{
+  display:inline-block;
+  /* margin-left:auto;
+  margin-right:auto; */
+}
+
+.description{
+  display:inline-block;
+  text-align:justify;
+  max-width:50%;
+}
+
+.descript-buttons{
+  text-align:center;
+}
+
 footer{
+  clear:both;
   padding:20px;
   font-size:12px;
   text-align:center;
