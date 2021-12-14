@@ -16,16 +16,17 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact Me</a>
+      <a href="hcontact.html">Contact Me</a>
     </nav>
 
     <hr>
 
     <div class="message">
       <h1>Hello, welcome!</h1>
-      <p>My name is Katrina. I am a graduate of NYU Tandon School of Engineering with a B.S. in Computer Science.</p>
+      <p>My name is Katrina! I am a graduate of NYU Tandon School of Engineering with a B.S. in Computer Science.</p>
 
-      <button id="projects" onclick="document.location='portfolio.html'">View Projects</button>
+      <a id="projects" href="portfolio.html">View Projects</a>
+      <!-- <button id="projects" onclick="document.location='portfolio.html'">View Projects</button> -->
     </div>
   </header>
 
@@ -35,9 +36,10 @@
       <div class="descript-everything">
         <figure class="headshot">
           <img src="images/KatrinaParedesHeadshot.png" 
-          width="325" height="325" alt="headshot">
+          max-width="325" height="325" 
+          alt="headshot">
         </figure>
-  
+
         <div class="description">
           <p>Hello! My name is Katrina Mae Paredes and I am an aspiring Software Engineer. I am a graduate of NYU Tandon School of Engineering with a B.S. in Computer Science. I like to believe that I lean more towards the creative side, as exemplified with my passion for web development and graphic design. That said, I'm not afraid to get down and dirty with some of the more technical aspects of computer science, for example, with my experience implementing predictive analytics algorithms and game programming.</p>
   
