@@ -1,0 +1,104 @@
+/* Style Sheet for Porfolio page*/
+
+body{
+  font-family:"Comfortaa", Helvetica, serif;
+  margin:0 auto;
+}
+
+/* Navbar and header*/
+header{
+  background-color:#E4EDCF;
+  padding:20px;
+  text-align:center;
+}
+
+nav{
+  text-align:right;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+nav a{
+  padding: 0 10px 0 10px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#7A6174;
+}
+
+hr{
+  border:1px dashed #7A6174;
+}
+
+header h1{
+  font-size: 40px;
+  color:#7A6174;
+  padding-top: 10px;
+}
+header p{
+  display:block;
+  width:80%;
+  padding: 10px;
+  margin:auto;
+}
+
+.quick-nav{
+  padding:10px;
+}
+.quick-nav a{
+  text-decoration: none;
+  font-weight:bold;
+  color:#7A6174;
+  background-color:#FFFFFF;
+  border-radius: 5px;
+  padding:10px 15px;
+  margin:5px;
+}
+
+/* Main */
+
+section h1{
+  font-size:35px;
+  clear:both;
+  color:#F1B5CB;
+  text-align:center;
+  padding-top:20px;
+}
+
+.proj-preview {
+  clear:both;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  width: 100%;
+}
+
+.proj-preview figure{
+  display:inline-block;
+  vertical-align: top;
+  margin:5px;
+  padding: 15px;
+  padding-top:25px;
+  margin: 0 auto;
+}
+
+.description{
+  display:inline-block;
+  text-align:justify;
+  padding-left:10px;
+  margin: 0 auto;
+  line-height:1.4;
+  max-width:48%;
+}
+.description h2{
+  vertical-align:top;
+  text-decoration:underline
+}
+
+footer{
+  clear:both;
+  padding-top:20px;
+  padding-bottom:10px;
+  font-size:12px;
+  text-align:center;
+}
