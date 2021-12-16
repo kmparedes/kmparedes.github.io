@@ -1,0 +1,70 @@
+
+/* Stylesheet for Contact Page*/
+
+body{
+  font-family:"Comfortaa", Helvetica, serif;
+  margin:0 auto;
+}
+
+/*Navbar and Header */
+header{
+  background-color: #746174;
+  padding:20px;
+  color:#FFF;
+  text-align:center;
+}
+nav{
+  text-align:right;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+nav a{
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFF;
+}
+
+hr{
+  border: 1px dashed #FFF;
+}
+
+header h1 {
+  font-size: 40px;
+  padding: 20px;
+}
+
+/*Main*/
+
+main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+main img{
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  padding: 15px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+.information{
+  display: inline;
+  text-align: justify;
+  padding-left: 10px;
+  margin: 0 auto;
+  max-width: 48%;
+}
+
+footer{
+  clear:both;
+  padding-top:20px;
+  padding-bottom:10px;
+  font-size:12px;
+  text-align:center;
+}
