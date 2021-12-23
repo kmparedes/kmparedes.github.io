@@ -37,29 +37,30 @@ header h1 {
 
 /*Main*/
 
-main{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 100%;
+.information-section{
+  display:block;
+  margin:0 auto;
+  text-align:center;
+  padding-top:20px;
+  width:100%;
 }
-main img{
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px;
+
+.information-section figure{
+  display:inline-block;
+  vertical-align:top;
   padding: 15px;
-  padding-top: 25px;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
 .information{
-  display: inline;
-  text-align: justify;
-  padding-left: 10px;
-  margin: 0 auto;
-  max-width: 48%;
+  display:inline-block;
+  text-align:justify;
+  padding-top:15px;
+  padding-left:10px;
+  margin:0 auto;
+  line-height: 1.5;
 }
+
 
 footer{
   clear:both;
